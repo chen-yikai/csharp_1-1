@@ -42,7 +42,7 @@
             this.showans.TabIndex = 0;
             this.showans.Text = "顯示答案";
             this.showans.UseVisualStyleBackColor = true;
-            this.showans.Click += new System.EventHandler(this.button1_Click);
+            this.showans.Click += new System.EventHandler(this.showans_Click);
             // 
             // retry
             // 
@@ -53,7 +53,7 @@
             this.retry.TabIndex = 1;
             this.retry.Text = "重猜";
             this.retry.UseVisualStyleBackColor = true;
-            this.retry.Click += new System.EventHandler(this.button2_Click);
+            this.retry.Click += new System.EventHandler(this.retry_Click);
             // 
             // label1
             // 

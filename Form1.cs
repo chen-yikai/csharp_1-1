@@ -17,19 +17,20 @@ namespace _1_1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void showans_Click(object sender, EventArgs e)
         {
+    
+            label1.Text = "知本";
+        }
 
+        private void retry_Click(object sender, EventArgs e)
+        {
+            label1.Text = "飲水思源，猜一個台灣地名";
         }
     }
 }
