@@ -28,30 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.showans = new System.Windows.Forms.Button();
+            this.retry = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // showans
             // 
-            this.button1.Location = new System.Drawing.Point(53, 188);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 55);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.showans.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.showans.Location = new System.Drawing.Point(53, 188);
+            this.showans.Name = "showans";
+            this.showans.Size = new System.Drawing.Size(121, 55);
+            this.showans.TabIndex = 0;
+            this.showans.Text = "顯示答案";
+            this.showans.UseVisualStyleBackColor = true;
+            this.showans.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // retry
             // 
-            this.button2.Location = new System.Drawing.Point(305, 188);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 55);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.retry.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.retry.Location = new System.Drawing.Point(305, 188);
+            this.retry.Name = "retry";
+            this.retry.Size = new System.Drawing.Size(121, 55);
+            this.retry.TabIndex = 1;
+            this.retry.Text = "重猜";
+            this.retry.UseVisualStyleBackColor = true;
+            this.retry.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -71,8 +73,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(491, 358);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.retry);
+            this.Controls.Add(this.showans);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -81,8 +83,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button showans;
+        private System.Windows.Forms.Button retry;
         private System.Windows.Forms.Label label1;
     }
 }
