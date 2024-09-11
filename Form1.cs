@@ -17,7 +17,6 @@ namespace _1_1
             InitializeComponent();
         }
 
-
         private void showans_Click(object sender, EventArgs e)
         {
     
