@@ -20,12 +20,12 @@ namespace _1_1
         private void showans_Click(object sender, EventArgs e)
         {
     
-            label1.Text = "知本";
+            label1.Text = "知本"; // 顯示答案
         }
 
         private void retry_Click(object sender, EventArgs e)
         {
-            label1.Text = "飲水思源，猜一個台灣地名";
+            label1.Text = "飲水思源，猜一個台灣地名"; // (預設值) 顯示題目
         }
     }
 }
